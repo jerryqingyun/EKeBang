@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C47AF85D1D919E5600037C6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C47AF85C1D919E5600037C6E /* main.m */; };
+		C47AF8601D919E5600037C6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C47AF85F1D919E5600037C6E /* AppDelegate.m */; };
+		C47AF8631D919E5600037C6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47AF8621D919E5600037C6E /* ViewController.m */; };
+		C47AF8661D919E5600037C6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47AF8641D919E5600037C6E /* Main.storyboard */; };
+		C47AF8681D919E5600037C6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47AF8671D919E5600037C6E /* Assets.xcassets */; };
+		C47AF86B1D919E5600037C6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47AF8691D919E5600037C6E /* LaunchScreen.storyboard */; };
+		C47AF8761D919E5700037C6E /* EKeBangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C47AF8751D919E5700037C6E /* EKeBangTests.m */; };
+		C47AF8811D919E5700037C6E /* EKeBangUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C47AF8801D919E5700037C6E /* EKeBangUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C47AF8721D919E5700037C6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C47AF8501D919E5600037C6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C47AF8571D919E5600037C6E;
+			remoteInfo = EKeBang;
+		};
+		C47AF87D1D919E5700037C6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C47AF8501D919E5600037C6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C47AF8571D919E5600037C6E;
+			remoteInfo = EKeBang;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C47AF8581D919E5600037C6E /* EKeBang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EKeBang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47AF85C1D919E5600037C6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C47AF85E1D919E5600037C6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C47AF85F1D919E5600037C6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C47AF8611D919E5600037C6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C47AF8621D919E5600037C6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C47AF8651D919E5600037C6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C47AF8671D919E5600037C6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C47AF86A1D919E5600037C6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C47AF86C1D919E5600037C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47AF8711D919E5700037C6E /* EKeBangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EKeBangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47AF8751D919E5700037C6E /* EKeBangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKeBangTests.m; sourceTree = "<group>"; };
+		C47AF8771D919E5700037C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47AF87C1D919E5700037C6E /* EKeBangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EKeBangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47AF8801D919E5700037C6E /* EKeBangUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKeBangUITests.m; sourceTree = "<group>"; };
+		C47AF8821D919E5700037C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C47AF8551D919E5600037C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47AF86E1D919E5700037C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47AF8791D919E5700037C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C47AF84F1D919E5600037C6E = {
+			isa = PBXGroup;
+			children = (
+				C47AF85A1D919E5600037C6E /* EKeBang */,
+				C47AF8741D919E5700037C6E /* EKeBangTests */,
+				C47AF87F1D919E5700037C6E /* EKeBangUITests */,
+				C47AF8591D919E5600037C6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C47AF8591D919E5600037C6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C47AF8581D919E5600037C6E /* EKeBang.app */,
+				C47AF8711D919E5700037C6E /* EKeBangTests.xctest */,
+				C47AF87C1D919E5700037C6E /* EKeBangUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C47AF85A1D919E5600037C6E /* EKeBang */ = {
+			isa = PBXGroup;
+			children = (
+				C47AF85E1D919E5600037C6E /* AppDelegate.h */,
+				C47AF85F1D919E5600037C6E /* AppDelegate.m */,
+				C47AF8611D919E5600037C6E /* ViewController.h */,
+				C47AF8621D919E5600037C6E /* ViewController.m */,
+				C47AF8641D919E5600037C6E /* Main.storyboard */,
+				C47AF8671D919E5600037C6E /* Assets.xcassets */,
+				C47AF8691D919E5600037C6E /* LaunchScreen.storyboard */,
+				C47AF86C1D919E5600037C6E /* Info.plist */,
+				C47AF85B1D919E5600037C6E /* Supporting Files */,
+			);
+			path = EKeBang;
+			sourceTree = "<group>";
+		};
+		C47AF85B1D919E5600037C6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C47AF85C1D919E5600037C6E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C47AF8741D919E5700037C6E /* EKeBangTests */ = {
+			isa = PBXGroup;
+			children = (
+				C47AF8751D919E5700037C6E /* EKeBangTests.m */,
+				C47AF8771D919E5700037C6E /* Info.plist */,
+			);
+			path = EKeBangTests;
+			sourceTree = "<group>";
+		};
+		C47AF87F1D919E5700037C6E /* EKeBangUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C47AF8801D919E5700037C6E /* EKeBangUITests.m */,
+				C47AF8821D919E5700037C6E /* Info.plist */,
+			);
+			path = EKeBangUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C47AF8571D919E5600037C6E /* EKeBang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47AF8851D919E5700037C6E /* Build configuration list for PBXNativeTarget "EKeBang" */;
+			buildPhases = (
+				C47AF8541D919E5600037C6E /* Sources */,
+				C47AF8551D919E5600037C6E /* Frameworks */,
+				C47AF8561D919E5600037C6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EKeBang;
+			productName = EKeBang;
+			productReference = C47AF8581D919E5600037C6E /* EKeBang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C47AF8701D919E5700037C6E /* EKeBangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47AF8881D919E5700037C6E /* Build configuration list for PBXNativeTarget "EKeBangTests" */;
+			buildPhases = (
+				C47AF86D1D919E5700037C6E /* Sources */,
+				C47AF86E1D919E5700037C6E /* Frameworks */,
+				C47AF86F1D919E5700037C6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C47AF8731D919E5700037C6E /* PBXTargetDependency */,
+			);
+			name = EKeBangTests;
+			productName = EKeBangTests;
+			productReference = C47AF8711D919E5700037C6E /* EKeBangTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C47AF87B1D919E5700037C6E /* EKeBangUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47AF88B1D919E5700037C6E /* Build configuration list for PBXNativeTarget "EKeBangUITests" */;
+			buildPhases = (
+				C47AF8781D919E5700037C6E /* Sources */,
+				C47AF8791D919E5700037C6E /* Frameworks */,
+				C47AF87A1D919E5700037C6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C47AF87E1D919E5700037C6E /* PBXTargetDependency */,
+			);
+			name = EKeBangUITests;
+			productName = EKeBangUITests;
+			productReference = C47AF87C1D919E5700037C6E /* EKeBangUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C47AF8501D919E5600037C6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = PinXiang;
+				TargetAttributes = {
+					C47AF8571D919E5600037C6E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C47AF8701D919E5700037C6E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C47AF8571D919E5600037C6E;
+					};
+					C47AF87B1D919E5700037C6E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C47AF8571D919E5600037C6E;
+					};
+				};
+			};
+			buildConfigurationList = C47AF8531D919E5600037C6E /* Build configuration list for PBXProject "EKeBang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C47AF84F1D919E5600037C6E;
+			productRefGroup = C47AF8591D919E5600037C6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C47AF8571D919E5600037C6E /* EKeBang */,
+				C47AF8701D919E5700037C6E /* EKeBangTests */,
+				C47AF87B1D919E5700037C6E /* EKeBangUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C47AF8561D919E5600037C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47AF86B1D919E5600037C6E /* LaunchScreen.storyboard in Resources */,
+				C47AF8681D919E5600037C6E /* Assets.xcassets in Resources */,
+				C47AF8661D919E5600037C6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47AF86F1D919E5700037C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47AF87A1D919E5700037C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C47AF8541D919E5600037C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47AF8631D919E5600037C6E /* ViewController.m in Sources */,
+				C47AF8601D919E5600037C6E /* AppDelegate.m in Sources */,
+				C47AF85D1D919E5600037C6E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47AF86D1D919E5700037C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47AF8761D919E5700037C6E /* EKeBangTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47AF8781D919E5700037C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47AF8811D919E5700037C6E /* EKeBangUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C47AF8731D919E5700037C6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C47AF8571D919E5600037C6E /* EKeBang */;
+			targetProxy = C47AF8721D919E5700037C6E /* PBXContainerItemProxy */;
+		};
+		C47AF87E1D919E5700037C6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C47AF8571D919E5600037C6E /* EKeBang */;
+			targetProxy = C47AF87D1D919E5700037C6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C47AF8641D919E5600037C6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47AF8651D919E5600037C6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C47AF8691D919E5600037C6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47AF86A1D919E5600037C6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C47AF8831D919E5700037C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C47AF8841D919E5700037C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C47AF8861D919E5700037C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EKeBang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CaiBo.EKeBang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C47AF8871D919E5700037C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EKeBang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CaiBo.EKeBang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C47AF8891D919E5700037C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EKeBangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CaiBo.EKeBangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EKeBang.app/EKeBang";
+			};
+			name = Debug;
+		};
+		C47AF88A1D919E5700037C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EKeBangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CaiBo.EKeBangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EKeBang.app/EKeBang";
+			};
+			name = Release;
+		};
+		C47AF88C1D919E5700037C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EKeBangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CaiBo.EKeBangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EKeBang;
+			};
+			name = Debug;
+		};
+		C47AF88D1D919E5700037C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EKeBangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CaiBo.EKeBangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EKeBang;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C47AF8531D919E5600037C6E /* Build configuration list for PBXProject "EKeBang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47AF8831D919E5700037C6E /* Debug */,
+				C47AF8841D919E5700037C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47AF8851D919E5700037C6E /* Build configuration list for PBXNativeTarget "EKeBang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47AF8861D919E5700037C6E /* Debug */,
+				C47AF8871D919E5700037C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C47AF8881D919E5700037C6E /* Build configuration list for PBXNativeTarget "EKeBangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47AF8891D919E5700037C6E /* Debug */,
+				C47AF88A1D919E5700037C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C47AF88B1D919E5700037C6E /* Build configuration list for PBXNativeTarget "EKeBangUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47AF88C1D919E5700037C6E /* Debug */,
+				C47AF88D1D919E5700037C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C47AF8501D919E5600037C6E /* Project object */;
+}
