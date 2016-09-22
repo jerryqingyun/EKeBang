@@ -8,7 +8,7 @@
 
 #import "CBReadViewController.h"
 
-@interface CBReadViewController ()
+@interface CBReadViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *readTableView;
 
